@@ -1,4 +1,4 @@
-//// Note, you can use this library to animate *any* type. However, some operations require you to provide a *merge* function `fn(a) -> a`. (Or more formally, what's sometimes called a monoid.)
+//// Note, you can use this library to animate *any* type. However, some operations require you to provide a *merge* function `fn(List(a)) -> a`. (Or more formally, what's sometimes called a monoid.)
 //// For example, to animate [paint](https://hexdocs.pm/paint/) `Picture`s, you would provide the `paint.combine` function:
 //// ```
 //// type AnimatedPicture = animation.Animation(paint.Picture)
